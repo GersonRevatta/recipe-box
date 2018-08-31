@@ -1,0 +1,6 @@
+<%= @recipe.title %>
+<p>Submitted <%= time_ago_in_words(@recipe.created_at) %></p>
+<p><%= @recipe.description %></p>
+<p>|<%= link_to 'edit', edit_recipe_path %>
+|<%= link_to 'delete', recipe_path, method: :delete %>
+</p>

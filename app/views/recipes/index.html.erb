@@ -1,0 +1,5 @@
+<%= link_to 'New recipe', new_recipe_path %>
+<% @recipes.each do |recipe| %>
+  <p><%= link_to recipe.title, recipe %></p>
+  <p>Created <%= recipe.created_at.strftime("%B %d, %Y")%></p>
+<% end %>
