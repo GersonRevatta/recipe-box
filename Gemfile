@@ -33,6 +33,7 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
 gem "paperclip", "~> 6.0.0"
 gem 'haml'
+gem "cocoon"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
