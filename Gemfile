@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
+gem "paperclip", "~> 6.0.0"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
