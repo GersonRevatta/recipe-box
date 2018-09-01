@@ -34,6 +34,7 @@ gem 'jquery-rails'
 gem "paperclip", "~> 6.0.0"
 gem 'haml'
 gem "cocoon"
+gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
